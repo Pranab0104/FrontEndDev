@@ -1,0 +1,119 @@
+* {
+margin: 0;
+padding: 0; 
+box-sizing: border-box;
+font-family: 'Gilroy';
+}
+
+html, body{ 
+height: 100%;
+width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: crimson; */
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 70px;
+    padding: 0px 25px;
+}
+
+#nav h4{
+    font-size: 4vh;
+}
+
+#nav i{
+    padding: 10px;
+    font-size: 3vh;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: black;
+}
+
+#center{
+    /* height: 40%; */
+    widows: 100%;
+    /* background-color: red; */
+    padding: 40px 50px;
+}
+
+#center h1{
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 88px;
+}
+
+#center-in{
+    height: 150px;
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 10px;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p{
+    font-size: 3vh;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#right{
+    width: 20%;
+}
+
+.elem{
+    margin: 5px;
+    padding: 10px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem a{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 00;
+}
+
+
+.elem:hover {
+    background-color: antiquewhite;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+
+.elem:hover a{
+    text-decoration: underline;
+    /* background-color: antiquewhite; */
+}
+
+#bottom{
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/939232454/photo/young-fashion-woman-in-black-leather-jacket-walking-in-city-street.jpg?s=1024x1024&w=is&k=20&c=wyvVC11i_xBZTvE14FgLJ_Q2MKAeCibiP95E1BUemwY=);
+    background-size: cover;
+    background-position: 0 50%;
+}
