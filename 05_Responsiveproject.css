@@ -1,0 +1,55 @@
+* {
+margin: 0;
+padding: 0; 
+box-sizing: border-box;
+font-family: 'Gilroy';
+}
+
+html, body{ 
+height: 100%;
+width: 100%;
+}
+
+/* #parent{
+    height: 30vh;
+    width: 30vw;
+    background-color: blueviolet;
+}
+
+#child{
+    height: 50;
+    width: 50%;
+    background-color: crimson;
+} */
+
+#parent{
+    background-color: crimson;
+}
+
+
+/* jab hum "em" me size dete h to jo bhi parent ka font size rahega uska double ho jayega. */
+/* h1{
+    font-size: 0.5em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+} */
+
+/* 1rem = 16px  rem jo h wo humesha apne root se access krta h size ko. Or root element h */
+
+h1{
+    font-size: 1rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
