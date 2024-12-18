@@ -1,0 +1,137 @@
+* {
+margin: 0;
+padding: 0; 
+box-sizing: border-box;
+font-family: 'Gilroy';
+}
+
+html, body{ 
+height: 100%;
+width: 100%;
+background-color: black;
+padding: 20px;
+}
+
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(60, 13, 104);
+    position: relative;
+    animation-name: box-move;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(17, 112, 119);
+    position: relative;
+    animation-name: box-move;
+    animation-duration:2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes box-move {
+    from{
+        left: 0;
+        rotate: 0;
+    }
+    to{
+        left: 60%;
+        rotate: 360deg;
+        border-radius: 30%;
+    }
+}
+
+/* img{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+@keyframes anime {
+    0%{
+        left: 0%;
+        top:0;
+    }
+    50%{
+        left: 60%;
+        top: 0;
+        border-radius: 25%;
+        rotate: -180deg;
+    }
+    100%{
+        left: 60%;
+        top: 50%;
+        border-radius: 50%;
+        rotate: -360deg;
+    }
+} */
+
+h1{
+    font-size: 100px;
+    color: crimson;
+}
+
+h1::after{
+    content: " 😎 excellent.";
+    color:rgb(38, 56, 56);
+    font-weight: 300;
+    font-size: 50px;
+}
+
+h1::before{
+    content: " Master ";
+    color:rgb(20, 39, 65);
+    font-weight: 300;
+    font-size: 50px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid crimson;
+    color: crimson;
+    border-radius: 5px;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+
+}
+
+button::after{
+    content: "";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all linear 0.5s;
+    z-index: -1;
+}
+
+button:hover::after{
+    /* background-color: crimson; */
+    /* width: 100%; */
+    transform: translate(-50%, -50%) scale(3);
+}
+
+button:hover{
+color: black;
+border-color: black;
+}
