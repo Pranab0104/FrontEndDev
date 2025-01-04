@@ -1,0 +1,99 @@
+* {
+margin: 0;
+padding: 0; 
+box-sizing: border-box;
+font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+color: white;
+}
+
+html, body{ 
+height: 100%;
+width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+    padding: 0 45px;
+}
+
+#nav h3:hover{
+    color: crimson;
+    /* background: white; */
+    cursor: pointer;
+}
+
+#nav h3{
+    font-size: 25px;
+    text-transform:uppercase;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav-2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#main h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 110px;
+    /* background-color: crimson; */
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main h1:nth-child(2){
+    margin-top: 200px;
+}
+
+#main h1:nth-child(3){
+    text-align: center;
+}
+
+#main h1:nth-child(4){
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    border-radius: 20px;
+}
+
+#i1{
+    rotate: 30deg;
+}
+
+#i2{
+    rotate: 20deg;
+}
+
+#i3{
+    rotate: 10deg;
+}
+
+footer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+    background-color: #fff;
+}
