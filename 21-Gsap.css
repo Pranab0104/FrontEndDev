@@ -1,0 +1,45 @@
+* {
+margin: 0;
+padding: 0; 
+box-sizing: border-box;
+/* font-family: PP woodland; */
+}
+
+html, body{ 
+height: 100%;
+width: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #F7F7EE;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #535D41;
+    padding: 4vw;
+}
+
+#page2 h1{
+    color: #434B34;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 300;
+    font-family: pp woodland;
+    line-height: 4vw;
+}
+
+#page2 h1 span{
+    font-family: pp woodland;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #F7F7EE;
+}
