@@ -1,0 +1,138 @@
+  * {
+margin: 0;
+padding: 0; 
+box-sizing: border-box;
+font-family: 'Gilroy';
+}
+
+html, body{ 
+height: 100%;
+width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #e4e0e0;
+    position: relative;
+    padding-top: 0.1px;
+}
+
+#nav{
+    height: 12vh;
+    width: 100%;
+    /* background-color: crimson; */
+    margin-top: 40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav h1{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 21%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Monument;
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+
+#nav h2{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    font-size: 28px;
+    font-weight: 700;
+    font-family:sans-serif
+}
+
+#nav h2:nth-last-child(2){
+    width: 29%;
+    /* background: #000; */
+}
+#nav h2:nth-last-child(1){
+    width: 12%;
+}
+
+#center{
+    height: 80%;
+    width: 100%;
+    /* background-color: crimson; */
+    position: relative;
+    padding: 4vw;
+}
+
+#content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: aquamarine;
+}
+
+#content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#overlay{
+    height: 58%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /* background-color: aqua; */
+    padding: 3vw;
+    color: #ffff;
+}
+
+#over1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+#over1 h1{
+    font-family: Monument;
+    font-size: 3vw;
+    font-weight: 500;
+    /* mix-blend-mode: difference; */
+}
+
+#over1 h2{
+    /* font-family: Monument; */
+    font-size: 1vw;
+    /* font-weight: 500; */
+    padding: 2vw 2.2vw;
+    /* background-color: blue; */
+    border: 2px solid white;
+    border-radius: 50%;
+    /* border-bottom: 2px solid #ffff; */
+}
+
+#over2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top:2px solid white;
+    padding: 1.8vw ;
+}
+
+#over2 h4{
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+#over2 img{
+    height: 3vw;
+}
