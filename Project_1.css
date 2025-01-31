@@ -248,6 +248,8 @@ width: 100%;
     background-color: black;
 }
 
+/* Page2 start here */
+
 #page2{
     height: 100%;
     width: 100%;
@@ -311,6 +313,7 @@ width: 100%;
     font-size: 0.8vw;
     font-family: sans-serif;
 }
+/* End here */
 
 #quote{
     margin-top: 20px;
@@ -541,7 +544,240 @@ width: 100%;
 .elem:nth-last-child(1){
     border-bottom: 3px solid black;
 }
+/* Enr here */
 
+#page6{
+    height: 100%;
+    width: 100%;
+    background-color: #e4e0e0;
+    display: flex;
+    padding: 3vw;
+    gap: 5vw;
+}
+
+#page6 #left{
+    border-radius: 3%;
+    height: 80%;
+    width: 95%;
+    background-color: crimson;
+    position: relative;
+}
+
+#page6 #left img{
+    position: absolute;
+    border-radius: 3%;
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 5px 7px;
+    object-fit: cover;
+}
+
+#page6 #right{
+    border-radius: 2%;
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua; */
+    /* margin: 2%; */
+    /* padding: 3vw; */
+}
+
+#page6 #right h1{
+    margin-top: 2%;
+    height: 10%;
+    width: 100%;
+    /* top: 100px; */
+    /* background-color: rgb(255, 0, 0); */
+    font-family: Monument;
+    font-size: 2vw;
+}
+
+#page6 #right h4{
+    margin-top: 2%;
+    height: 20%;
+    width: 50%;
+    /* top: 100px; */
+    /* background-color: rgb(255, 0, 0); */
+    font-family: sans-serif;
+    font-size: 1.1vw;
+}
+
+#page6 #right p{
+    margin-top: 0.6%;
+    height: 20%;
+    width: 100%;
+    /* top: 100px; */
+    /* background-color: rgb(255, 0, 0); */
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+#right #right-img{
+    /* padding: 1vw; */
+    display: flex;
+    height: 42%;
+    width: 100%;
+    /* background-color: brown; */
+    gap: 5%;
+}
+
+#right #right-img #im1{
+    box-shadow: 2px 5px 7px;
+    height: 100%;
+    width: 100%;
+    border-radius: 0% 10%;
+    /* background-color: rgb(207, 0, 0); */
+}
+
+#right #right-img #im1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#right #right-img #im2{
+    box-shadow: 2px 5px 7px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10% 0%;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+#right #right-img #im2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* end here */
+
+/* Page 7 start here*/
+#page7{
+    /* margin-top: 1%; */
+    height: 100%;
+    width: 100%;
+    padding: 5vw;
+    background-color: #e4e0e0;
+    position: relative;
+}
+
+#page7 #pic{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* background-color: crimson; */
+}
+
+#page7 #pic img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2vw;
+}
+
+#flow{
+    margin-top: 2%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: end;
+    top: 0;
+    height: 14%;
+    /* background-color: brown; */
+    width:100%;
+    padding: 2vw;
+}
+
+#flow h2{
+    /* width:7%; */
+    align-items: center;
+    justify-content:center;
+    color: white;
+    text-align: center;
+    font-family: Monument;
+    font-size: 1vw;
+    font-weight: 500;
+    padding: 2vw 2.2vw;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+#flow:hover
+{
+    backdrop-filter: blur(20px);
+}
+
+/* End here */
+
+/* Page8 start here */
+
+#page8{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+    background-color: #e4e0e0;
+    /* margin-top: 20px; */
+}
+
+#page8 #prt-1{
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px 120px;
+    background-image: url(https://images.unsplash.com/photo-1519307212971-dd9561667ffb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fHdlZGRpbmdzfGVufDB8fDB8fHww);
+}
+
+#page8 #prt-2{
+    height: 100%;
+    width: 40%;
+    /* background-image: url(); */
+}
+
+#page8 #prt-2 img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 120px 0px ;
+}
+
+#page8 #prt-2 #pr{
+    height:30%;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+}
+
+#page8 #prt-2 #pr{
+    height:30%;
+    width: 100%;
+    gap: 5vw;
+    margin-top: 4vh;
+    /* padding: 2vw; */
+}
+
+#page8 #prt-2 #pr h5{
+    height:100%;
+    width: 40%;
+    /* background-color: aqua; */
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+#page8 #prt-2 #pr h6{
+    height:100%;
+    width: 60%;
+    /* background-color: rgb(11, 36, 36); */
+    font-size: 0.8vw;
+    font-family: sans-serif;
+}
+
+/* End here */
+
+/* MARQUE START HERE */
 #marque{
     /* height: 15vh; */
     width: 100%;
@@ -580,8 +816,78 @@ width: 100%;
     }
 }
 
-#footer{
+/* MARQUE END HERE */
+
+#page9{
     height: 100%;
+    width: 100%;
+    background-color: #e4e0e0;
+    padding: 4vw;
+    display: flex;
+    gap: 5vw;
+}
+
+#page9 h1{
+    height: 10vh;
+    display: flex;
+    /* background-color: blueviolet; */
+    font-family: Monument;
+    font-weight: 500;
+}
+
+#page9 #box1{
+    position: relative;
+    height: 80%;
+    width: 100%;
+    /* background-color: crimson; */
+    /* padding: 2vw; */
+}
+
+#page9 #box1 p{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    height: 40%;
+    /* color: white; */
+    /* background-color: chartreuse; */
+}
+
+#page9 #box1 img{
+    margin-top: 10vw;
+    height: 70%;
+    width: 100%;
+    object-position: center;
+    border-radius: 2vw;
+    box-shadow: 3px 5px 15px;
+}
+
+#page9 #box2{
+    position: relative;
+    height: 80%;
+    width: 100%;
+    /* background-color: crimson; */
+    /* padding: 2vw; */
+}
+
+#page9 #box2 img{
+    margin-top: 10vw;
+    height: 70%;
+    width: 100%;
+    object-position: center;
+    box-shadow: 3px 5px 15px;
+    border-radius: 2vw;
+}
+
+#page9 #box2 p{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    height: 40%;
+    /* background-color: chartreuse; */
+}
+
+#footer{
+    height: 70%;
     width: 100%;
     background-color: #e4e0e0;
 }
