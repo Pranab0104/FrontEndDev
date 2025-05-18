@@ -1,0 +1,91 @@
+/* styles.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+header {
+  background-color: rgba(0, 64, 128, 0.85);
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #e60b0b;
+}
+
+main {
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.section {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #176d85;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1a636b;
+}
+
+footer {
+  background: rgba(204, 204, 204, 0.95);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
